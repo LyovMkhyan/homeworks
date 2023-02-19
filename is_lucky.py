@@ -8,3 +8,4 @@ def lucky_number(number: str) -> bool:
             sum2 += int(number[index])
 
     return sum1 == sum2
+
