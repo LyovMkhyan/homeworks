@@ -9,3 +9,4 @@ def lucky_number(number: str) -> bool:
 
     return sum1 == sum2
 
+# add some text
