@@ -1,4 +1,5 @@
-def insertion_sort(numbers: list) -> list:
+def insertion_sort(
+        numbers: list) -> list:
     """
 
     :param numbers:
@@ -15,3 +16,18 @@ def insertion_sort(numbers: list) -> list:
 
 numbers = [int(elem) for elem in input("Enter numbers: ").split()]
 print(insertion_sort(numbers))
+
+# def insertion_sort(nums):
+#     for i in range(len(nums)):
+#         value_to_insert = nums[i]
+#         j = i-1
+#         while j >= 0 and nums[j] > value_to_insert:
+#             nums[j+1], nums[j] = nums[j], nums[j+1]
+#             j -= 1
+#     return nums
+#
+#
+#
+#
+# numbers = [int(elem) for elem in input('Enter numbers:').split()]
+# print(insertion_sort(numbers))
